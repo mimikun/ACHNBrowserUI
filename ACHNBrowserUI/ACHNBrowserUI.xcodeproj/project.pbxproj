@@ -119,6 +119,7 @@
 		68BA582A244B693400B53811 /* TurnipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA5829244B693300B53811 /* TurnipsViewModel.swift */; };
 		68BA582C244B695F00B53811 /* IslandDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA582B244B695F00B53811 /* IslandDetailViewModel.swift */; };
 		68DFFFAD24492D7F00DEA07F /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFFFAC24492D7F00DEA07F /* ItemDetailViewModel.swift */; };
+		6903CD0D246C635200150FA1 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6903CD0C246C635200150FA1 /* CloudKit.framework */; };
 		693E0B1D244C315B00D20E46 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693E0B1C244C315B00D20E46 /* DashboardViewModel.swift */; };
 		693E0B22244C596D00D20E46 /* ActiveCrittersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693E0B21244C596D00D20E46 /* ActiveCrittersView.swift */; };
 		693E2BBE2465B65D00B85CB8 /* RowLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693E2BBD2465B65D00B85CB8 /* RowLoadingView.swift */; };
@@ -364,6 +365,8 @@
 		68BA5829244B693300B53811 /* TurnipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnipsViewModel.swift; sourceTree = "<group>"; };
 		68BA582B244B695F00B53811 /* IslandDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandDetailViewModel.swift; sourceTree = "<group>"; };
 		68DFFFAC24492D7F00DEA07F /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		6903CD0B246C62C200150FA1 /* AC HelperRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AC HelperRelease.entitlements"; sourceTree = "<group>"; };
+		6903CD0C246C635200150FA1 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		690BD65324404F4300DEECD3 /* ACHNBrowserUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACHNBrowserUI.entitlements; sourceTree = "<group>"; };
 		693E0B1C244C315B00D20E46 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		693E0B21244C596D00D20E46 /* ActiveCrittersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCrittersView.swift; sourceTree = "<group>"; };
@@ -472,6 +475,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6903CD0D246C635200150FA1 /* CloudKit.framework in Frameworks */,
 				325C0945246054AF0043B6A7 /* SwiftUI.framework in Frameworks */,
 				69E4BBB0245AE067001035E2 /* UI in Frameworks */,
 				68345589244E4DEF0072FC0C /* ACNHEvents in Frameworks */,
@@ -725,6 +729,7 @@
 		6951837324599C26005D28E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6903CD0C246C635200150FA1 /* CloudKit.framework */,
 				325C0943246053E10043B6A7 /* SwiftUI.framework */,
 				6951837424599C26005D28E0 /* StoreKit.framework */,
 			);
@@ -800,6 +805,7 @@
 		69AF8C4F243E283D001DD9CB /* ACHNBrowserUI */ = {
 			isa = PBXGroup;
 			children = (
+				6903CD0B246C62C200150FA1 /* AC HelperRelease.entitlements */,
 				690BD65324404F4300DEECD3 /* ACHNBrowserUI.entitlements */,
 				693E728F245D7CCC00CD26F4 /* env */,
 				693E72A3245EBAEA00CD26F4 /* representables */,
@@ -1560,7 +1566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ACHNBrowserUI/ACHNBrowserUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "ACHNBrowserUI/AC HelperRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 051352020;
 				DEVELOPMENT_ASSET_PATHS = "\"ACHNBrowserUI/Preview Content\"";
