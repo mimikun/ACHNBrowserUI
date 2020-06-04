@@ -50,10 +50,10 @@
 "Collection Progress" = "コレクションの進捗";
 "Share" = "シェア";
 // TodayCurrentlyAvailableSection
-"Currently Available" = "現在利用可能";
+"Currently Available" = "現在捕獲可能";
 "%lld/%lld Bugs" = "%lld/%lld 匹のムシ";
 "%lld/%lld Fish" = "%lld/%lld 匹のサカナ";
-"%lld NEW" = "新規 %lld 匹";
+"%lld NEW" = "新規: %lld 匹";
 // TodayEventsSection
 "Events" = "イベント";
 "Currently" = "現在";
@@ -123,7 +123,7 @@ You can cancel anytime with your iTunes account settings. Any unused portion of 
 "Bugs" = "ムシ";
 "You caught them all!" = "全て捕まえた!";
 "New this month" = "今月の新着";
-"To catch" = "捕まえる";
+"To catch" = "捕獲可能";
 "Leaving this month" = "今月でいなくなる";
 "Caught" = "捕獲済み";
 "All day" = "終日";
@@ -684,7 +684,7 @@ You can cancel anytime with your iTunes account settings. Any unused portion of 
 
 //Added 05-14-2020
 "My data" = "データ";
-"Collection size" = "コレクションサイズs";
+"Collection size" = "コレクションサイズ";
 "Export my collection" = "コレクションをエクスポート";
 "Import a collection" = "コレクションをインポート";
 "Imported with success" = "インポート成功";
@@ -784,15 +784,15 @@ You can cancel anytime with your iTunes account settings. Any unused portion of 
 "Celeste" = "フーコ";
 
 // Added 2020-05-23
-"Museum Day" = "ミュージアムデー";
-"Wedding Season" = "ウエディングシーズン";
+"Museum Day" = "国際ミュージアムデー";
+"Wedding Season" = "ジューンブライド";
 "Bug-Off contest" = "むしとりたいかい";
 "Meteor shower" =  "流星群";
 
 // Added 2020-05-23
 "Reset" = "リセット";
 "View Turnip.Exchange islands" = "View Turnip.Exchange islands";  // TODO
-"View on TurnipProphet" = "View on TurnipProphet";  // TODO
+"View on TurnipProphet" = "TurnipProphetで表示";
 
 // Added 2020-05-24
 "Music player" = "ミュージックプレイヤー";
