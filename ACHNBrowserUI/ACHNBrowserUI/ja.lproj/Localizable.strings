@@ -51,8 +51,8 @@
 "Share" = "シェア";
 // TodayCurrentlyAvailableSection
 "Currently Available" = "現在捕獲可能";
-"%lld/%lld Bugs" = "%lld/%lld 匹のムシ";
-"%lld/%lld Fish" = "%lld/%lld 匹のサカナ";
+"%lld/%lld Bugs" = "%lld/%lld 匹";
+"%lld/%lld Fish" = "%lld/%lld 匹";
 "%lld NEW" = "新規: %lld 匹";
 // TodayEventsSection
 "Events" = "イベント";
